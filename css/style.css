@@ -1,0 +1,218 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.floatleft{
+float: left;
+}
+.floatright{
+    float: right;
+    }
+    
+header{
+    background: url("../images/Banner-bg.jpg") no-repeat rgb(239, 241, 243);
+    width:2000px;
+    height:760px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+header nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 61px;
+    padding: 0 410px;
+
+}
+header h1 {
+    color: #fff;
+    margin-top: 20px;
+}
+header nav div {
+    padding-top: 20px;
+}
+header nav div a{
+    color: #fff;
+    padding: 20px 40px; 
+}
+header nav div a:hover{
+    background-color: rgb(50, 77, 107);
+    border-bottom: solid  7px  rgb(255, 144, 0);
+}
+header section{
+    position: absolute;
+    top:257px;
+    left: 400px;
+    right: 400px;
+}
+#piclike{
+    background-color: rgba(0, 0, 0, 0.7); 
+    position: absolute; 
+    bottom: 2px;
+    left: 0;
+    width:755px;
+    height:90px;
+    padding: 10px 40px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.center{
+    width:2000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.child1{
+    padding: 20px 40px;
+    border: 2px solid rgb(152, 165, 195);
+}
+.child1:hover{
+    color:#fff;
+    background-color: rgb(255, 144, 0);
+    border-color: rgb(255, 144, 0);
+}
+#services{
+    height:869px;
+    background:url("../images/Services-bg.jpg") no-repeat;
+}
+.ss{
+    width: 247px; 
+    height: 387px;
+    text-align: center;
+    padding-top: 193px;
+}
+
+#s1{
+    background: url("../images/Development-cn.png") no-repeat 60px 50px;
+     color: rgb(0, 158, 216);   
+}
+#s1:hover{
+    background:url("../images/Develop-hover-icn.png") no-repeat 60px 50px;
+    color:#fff;
+}
+#s2{
+    background: url("../images/desgin-icn.png") no-repeat 60px 50px;
+     color: rgb(255, 171, 63);   
+}
+#s2:hover{
+    background:url("../images/desgin-hover-icn.png") no-repeat 60px 50px;
+    color:#fff;
+}
+#s3{
+    background: url('../images/concept-icn.png') no-repeat 60px 50px;
+     color: rgb(170, 54, 43);   
+}
+#s3:hover{
+    background:url("../images/concept-hover-icn.png") no-repeat 60px 50px;
+    color:#fff;
+}
+#s4{
+    background: url('../images/systam-icn.png') no-repeat 60px 50px;
+     color: rgb(94, 95, 97);   
+}
+#s4:hover{
+    background:url("../images/systam-hover-icn.png") no-repeat 60px 50px;
+    color:#fff;
+}
+.child2{
+    height: 105px;
+    width: 1100px;
+    background-color: #fff;
+    display: flex;
+}
+.child2 p {
+    
+    text-align: center;
+
+}
+.g1{
+    width: 57px;
+    height: 105px;
+    background-color: rgb(255, 148, 8);
+    padding:44px 10px;
+}
+.g2{
+    width: 207px; 
+    height: 105px;
+    font-size: 30px;
+    color: rgb(255, 148, 8);
+    background-color: rgb(45, 45, 45);
+    padding:29px 10px;
+    font-weight: bold;
+}
+.g3{
+    width: 175px;
+    height: 60px;
+    border-right: 2px solid rgb(158, 159, 158); 
+    color:rgb(158, 159, 158);
+    margin-top: 20px;
+    text-align: center;
+    padding:10px 30px ;
+    font-weight: bold;
+}
+.g4{
+    width: 148px;
+    height: 104px;
+    color: #fff;
+    background-color: rgb(45, 45, 45);
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    width:2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact{
+    background: url("../images/Contact-bg.jpg") no-repeat;
+}
+.form{
+    background-color: #000;
+    padding-top: 80px;
+   justify-content: center;
+   margin-top: -50px;
+}
+.form input,.form textarea{
+    width: 540px;
+    height: 55px;
+    margin-bottom: 30px;
+}
+.form textarea{
+    height: 157px;
+}
+.info{
+    width: 430px;
+    margin-left: 45px;
+}
+.info h1{
+color: rgb(255, 144, 0);
+
+}
+.info td {
+    color:#fff;
+    padding-top: 40px;
+}
+.info i {
+    margin-right: 25px;
+    font-size: 30px;
+}
+.social{
+    background-color: #fff;
+    background-clip: content-box;
+    font-size: 60px;
+    margin-right: 25px;
+}
+.copy{
+    background-image: url(../images/Get-bg.jpg);
+    color:#fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
